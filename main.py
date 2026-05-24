@@ -4,6 +4,7 @@ from pynput.keyboard import Key, Controller
 from colorama import Back, Fore, deinit, init
 
 from utils import chemin, configurer_touches, next_move, selection
+from i18n import t
 
 
 
@@ -35,19 +36,20 @@ for code in selecteds_codes:
     moves.append(move)
     last_code = code
 
-print("Il est important de définir un delais afin que vous aillez le temps de rerentrer dans le jeu.\n")
+print(t("intro_delay") + "\n")
 while True:
-    dalay = input("\033[1A\033[JTemps avant de commencer (en secondes): ")
+    dalay = input("\033[1A\033[J" + t("prompt_delay"))
     if dalay.isnumeric():
         break
 
-print(Fore.RED + "\n!!! Attention à bien à être dans la salle de classe du Barnett College avec le tableau sélectionné, et marquer '(A) A A A A A'" + Fore.RESET + "\n")
-input(Fore.CYAN + "Commencer..." + Fore.RESET)
+print(Fore.RED + "\n" + t("warning_position") + Fore.RESET + "\n")
+input(Fore.CYAN + t("start_now") + Fore.RESET)
 
 for i in range(int(dalay)):
     r = int(dalay) - i
     s = Fore.YELLOW + str(r) + Fore.CYAN if r > 1 else Fore.RED + "1" + Fore.CYAN
-    print("\033[1A\033[J" + Fore.CYAN + f"Commence dans {s} seconde{'s' if r > 1 else ''}..." + Fore.RESET)
+    countdown = t("countdown_one", s=s) if r == 1 else t("countdown_many", s=s)
+    print("\033[1A\033[J" + Fore.CYAN + countdown + Fore.RESET)
     time.sleep(1)
 
 def press(key: Key) -> None:

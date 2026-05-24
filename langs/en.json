@@ -1,0 +1,23 @@
+{
+    "intro_delay": "It is important to set a delay so you have time to switch back into the game.",
+    "prompt_delay": "Delay before starting (in seconds): ",
+    "warning_position": "!!! Make sure you are in the Barnett College classroom with the board selected, showing '(A) A A A A A'",
+    "start_now": "Start...",
+    "countdown_one": "Starting in {s} second...",
+    "countdown_many": "Starting in {s} seconds...",
+
+    "config_title": "--- KEY CONFIGURATION ---",
+    "config_instruction": "Press the matching key for each action.",
+    "config_choose": "Choose the key for [ {action} ]...",
+    "config_assigned": "[ {action} ] assigned to: '{keybind}'",
+    "config_done": "--- CONFIGURATION COMPLETE ---",
+    "action_validate": "Confirm",
+
+    "header_character_codes": "---------- Character cheat codes ----------",
+    "header_extra_codes": "---------- Extra cheat codes ----------",
+    "selection_prompt": "Choose a code ('a' to select all, 'v' to confirm): ",
+    "selected_title": "--- SELECTED CODE(S) ---",
+
+    "error_display": "[ERROR] Display problem: empty data or invalid columns",
+    "credit": "  by Harlock\n      → GitHub: Game-K-Hack"
+}

@@ -2,12 +2,14 @@ import re
 import math
 from colorama import Fore
 
+from i18n import t
+
 
 
 def affichage_colonne(data: list[str], selecteds: list[int] = [], colonne: int = 4, sep: int = 3, start_to: int = 0) -> list[str]:
     # 1. Vérifications de sécurité
     if not data or colonne < 1:
-        raise ValueError(Fore.RED + "[ERROR] Problème d'affichage : données vides ou colonnes invalides" + Fore.RESET)
+        raise ValueError(Fore.RED + t("error_display") + Fore.RESET)
 
     total_elements = len(data)
     # Calcul du nombre de lignes nécessaires
@@ -115,5 +117,5 @@ def display_banner():
             multiplier_caracteres(file.read().replace("\\n", "\n")), 
             (237, 53, 34), (255, 225, 117), angle_degrees=85)
     ascii_art(
-        "\n\n  by Harlock\n      → GitHub: Game-K-Hack" + "\n"*5, 
+        "\n\n" + t("credit") + "\n"*5,
         (240, 50, 50), (30, 130, 240), angle_degrees=45)

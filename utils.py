@@ -5,6 +5,7 @@ from colorama import Fore
 from pynput.keyboard import Key, Listener
 
 from display import affichage_colonne, display_banner
+from i18n import t
 
 
 
@@ -37,13 +38,17 @@ def next_move(depart: str, arrivee: str, index: int = 0) -> str:
 
 def configurer_touches() -> dict:
     actions_a_configurer = ["↑", "→", "↓", "←", "Valider"]
+    # Libellés affichés (les clés internes restent inchangées)
+    labels = {a: a for a in actions_a_configurer}
+    labels["Valider"] = t("action_validate")
     key_mapping = {}
 
-    print(Fore.CYAN + "--- CONFIGURATION DES TOUCHES ---" + Fore.RESET)
-    print("Appuyez sur la touche correspondante pour chaque action.\n")
+    print(Fore.CYAN + t("config_title") + Fore.RESET)
+    print(t("config_instruction") + "\n")
 
     for action in actions_a_configurer:
-        print(f"Choisissez la touche pour [ {Fore.CYAN + action + Fore.RESET} ]...", end="\r")
+        label = labels[action]
+        print(t("config_choose", action=Fore.CYAN + label + Fore.RESET), end="\r")
         touche_detectee: Key = None
 
         def on_press(key: Key):
@@ -53,13 +58,15 @@ def configurer_touches() -> dict:
 
         with Listener(on_press=on_press) as listener:
             listener.join()
-        
+
         key_mapping[action] = touche_detectee
-        print(f"\x1b[2K[ {Fore.CYAN + action + Fore.RESET} ] assigné à : '{Fore.CYAN + touche_detectee.name + Fore.RESET}'")
+        print("\x1b[2K" + t("config_assigned",
+            action=Fore.CYAN + label + Fore.RESET,
+            keybind=Fore.CYAN + touche_detectee.name + Fore.RESET))
 
         time.sleep(0.3)
 
-    print(Fore.CYAN + "\n--- CONFIGURATION TERMINÉE ---" + Fore.RESET)
+    print(Fore.CYAN + "\n" + t("config_done") + Fore.RESET)
     return key_mapping
 
 
@@ -69,11 +76,11 @@ def selection(data: list[str]) -> list[str]:
     while ok:
         os.system("cls") if platform.system().lower() == "windows" else os.system("clear") # effacer ecran
         display_banner()
-        affichage = ["\n---------- Codes de triche de personnage ----------\n"]
+        affichage = ["\n" + t("header_character_codes") + "\n"]
         affichage += affichage_colonne(data[:59], selecteds)
-        affichage.append("\n\n---------- Codes de triche supplémentaires ----------\n")
+        affichage.append("\n\n" + t("header_extra_codes") + "\n")
         affichage += affichage_colonne(data[59:], selecteds, colonne=3, sep=16, start_to=len(data[:59]))
-        prompt = "Choisir un code ('a' pour tous selectionner, et 'v' pour valider): "
+        prompt = t("selection_prompt")
         print("\n".join(affichage) + "\n\n" + prompt, end="")
         choix = input().lower()
         match choix:
@@ -90,5 +97,5 @@ def selection(data: list[str]) -> list[str]:
                             selecteds.remove(choix)
                         else: 
                             selecteds.append(choix)
-    print("\033[1A\033[J" + Fore.CYAN + "--- CODE(S) SÉLECTIONNÉ(S) ---\n" + Fore.RESET)
+    print("\033[1A\033[J" + Fore.CYAN + t("selected_title") + "\n" + Fore.RESET)
     return [data[i] for i in selecteds]

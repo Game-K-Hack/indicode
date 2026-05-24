@@ -1,0 +1,23 @@
+{
+    "intro_delay": "Il est important de définir un delais afin que vous aillez le temps de rerentrer dans le jeu.",
+    "prompt_delay": "Temps avant de commencer (en secondes): ",
+    "warning_position": "!!! Attention à bien à être dans la salle de classe du Barnett College avec le tableau sélectionné, et marquer '(A) A A A A A'",
+    "start_now": "Commencer...",
+    "countdown_one": "Commence dans {s} seconde...",
+    "countdown_many": "Commence dans {s} secondes...",
+
+    "config_title": "--- CONFIGURATION DES TOUCHES ---",
+    "config_instruction": "Appuyez sur la touche correspondante pour chaque action.",
+    "config_choose": "Choisissez la touche pour [ {action} ]...",
+    "config_assigned": "[ {action} ] assigné à : '{keybind}'",
+    "config_done": "--- CONFIGURATION TERMINÉE ---",
+    "action_validate": "Valider",
+
+    "header_character_codes": "---------- Codes de triche de personnage ----------",
+    "header_extra_codes": "---------- Codes de triche supplémentaires ----------",
+    "selection_prompt": "Choisir un code ('a' pour tous selectionner, et 'v' pour valider): ",
+    "selected_title": "--- CODE(S) SÉLECTIONNÉ(S) ---",
+
+    "error_display": "[ERROR] Problème d'affichage : données vides ou colonnes invalides",
+    "credit": "  by Harlock\n      → GitHub: Game-K-Hack"
+}
