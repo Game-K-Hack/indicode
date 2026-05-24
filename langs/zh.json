@@ -1,0 +1,23 @@
+{
+    "intro_delay": "设置一个延迟很重要，这样你才有时间切换回游戏。",
+    "prompt_delay": "开始前的延迟（秒）: ",
+    "warning_position": "!!! 请确保你在巴尼特学院的教室里，已选中黑板，并显示 '(A) A A A A A'",
+    "start_now": "开始...",
+    "countdown_one": "{s} 秒后开始...",
+    "countdown_many": "{s} 秒后开始...",
+
+    "config_title": "--- 按键配置 ---",
+    "config_instruction": "为每个操作按下对应的按键。",
+    "config_choose": "为 [ {action} ] 选择按键...",
+    "config_assigned": "[ {action} ] 已分配给: '{keybind}'",
+    "config_done": "--- 配置完成 ---",
+    "action_validate": "确认",
+
+    "header_character_codes": "---------- 角色作弊码 ----------",
+    "header_extra_codes": "---------- 额外作弊码 ----------",
+    "selection_prompt": "选择一个代码（'a' 全选，'v' 确认）: ",
+    "selected_title": "--- 已选择的代码 ---",
+
+    "error_display": "[ERROR] 显示问题：数据为空或列无效",
+    "credit": "  by Harlock\n      → GitHub: Game-K-Hack"
+}

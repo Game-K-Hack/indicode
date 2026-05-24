@@ -1,0 +1,23 @@
+{
+    "intro_delay": "È importante impostare un ritardo per avere il tempo di rientrare nel gioco.",
+    "prompt_delay": "Ritardo prima di iniziare (in secondi): ",
+    "warning_position": "!!! Assicurati di essere nell'aula del Barnett College con la lavagna selezionata, che mostra '(A) A A A A A'",
+    "start_now": "Inizia...",
+    "countdown_one": "Inizia tra {s} secondo...",
+    "countdown_many": "Inizia tra {s} secondi...",
+
+    "config_title": "--- CONFIGURAZIONE DEI TASTI ---",
+    "config_instruction": "Premi il tasto corrispondente per ogni azione.",
+    "config_choose": "Scegli il tasto per [ {action} ]...",
+    "config_assigned": "[ {action} ] assegnato a: '{keybind}'",
+    "config_done": "--- CONFIGURAZIONE COMPLETATA ---",
+    "action_validate": "Conferma",
+
+    "header_character_codes": "---------- Codici trucco del personaggio ----------",
+    "header_extra_codes": "---------- Codici trucco aggiuntivi ----------",
+    "selection_prompt": "Scegli un codice ('a' per selezionare tutto, 'v' per confermare): ",
+    "selected_title": "--- CODICE/I SELEZIONATO/I ---",
+
+    "error_display": "[ERROR] Problema di visualizzazione: dati vuoti o colonne non valide",
+    "credit": "  by Harlock\n      → GitHub: Game-K-Hack"
+}

@@ -1,0 +1,23 @@
+{
+    "intro_delay": "Es ist wichtig, eine Verzögerung festzulegen, damit du Zeit hast, ins Spiel zurückzukehren.",
+    "prompt_delay": "Verzögerung vor dem Start (in Sekunden): ",
+    "warning_position": "!!! Stelle sicher, dass du im Klassenzimmer des Barnett College bist und die Tafel ausgewählt ist, mit der Anzeige '(A) A A A A A'",
+    "start_now": "Starten...",
+    "countdown_one": "Startet in {s} Sekunde...",
+    "countdown_many": "Startet in {s} Sekunden...",
+
+    "config_title": "--- TASTENKONFIGURATION ---",
+    "config_instruction": "Drücke die entsprechende Taste für jede Aktion.",
+    "config_choose": "Wähle die Taste für [ {action} ]...",
+    "config_assigned": "[ {action} ] zugewiesen an: '{keybind}'",
+    "config_done": "--- KONFIGURATION ABGESCHLOSSEN ---",
+    "action_validate": "Bestätigen",
+
+    "header_character_codes": "---------- Charakter-Cheatcodes ----------",
+    "header_extra_codes": "---------- Zusätzliche Cheatcodes ----------",
+    "selection_prompt": "Wähle einen Code ('a' um alle auszuwählen, 'v' zum Bestätigen): ",
+    "selected_title": "--- AUSGEWÄHLTE(R) CODE(S) ---",
+
+    "error_display": "[ERROR] Anzeigeproblem: leere Daten oder ungültige Spalten",
+    "credit": "  by Harlock\n      → GitHub: Game-K-Hack"
+}

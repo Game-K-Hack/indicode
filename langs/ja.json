@@ -1,0 +1,23 @@
+{
+    "intro_delay": "ゲームに戻る時間を確保できるよう、遅延時間を設定することが重要です。",
+    "prompt_delay": "開始までの遅延（秒）: ",
+    "warning_position": "!!! バーネット大学の教室で黒板が選択され、'(A) A A A A A' と表示されていることを確認してください",
+    "start_now": "開始...",
+    "countdown_one": "{s} 秒後に開始します...",
+    "countdown_many": "{s} 秒後に開始します...",
+
+    "config_title": "--- キー設定 ---",
+    "config_instruction": "各アクションに対応するキーを押してください。",
+    "config_choose": "[ {action} ] のキーを選択してください...",
+    "config_assigned": "[ {action} ] を割り当てました: '{keybind}'",
+    "config_done": "--- 設定完了 ---",
+    "action_validate": "決定",
+
+    "header_character_codes": "---------- キャラクターのチートコード ----------",
+    "header_extra_codes": "---------- 追加のチートコード ----------",
+    "selection_prompt": "コードを選択（'a' ですべて選択、'v' で確定）: ",
+    "selected_title": "--- 選択されたコード ---",
+
+    "error_display": "[ERROR] 表示の問題: データが空、または無効な列です",
+    "credit": "  by Harlock\n      → GitHub: Game-K-Hack"
+}
