@@ -49,3 +49,5 @@ python main.py
 4. indicode가 모두 입력하는 동안 기다리기만 하면 됩니다.
 
 > 환경 변수 `INDICODE_LANG` 로 언어를 지정할 수 있습니다 (예: `INDICODE_LANG=ko`).
+
+![end banner](./end_banner.png)

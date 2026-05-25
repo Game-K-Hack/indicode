@@ -49,3 +49,5 @@ python main.py
 4. 坐等 indicode 全部输入完成。
 
 > 通过环境变量 `INDICODE_LANG` 强制指定语言（例如 `INDICODE_LANG=zh`）。
+
+![end banner](./end_banner.png)

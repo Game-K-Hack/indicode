@@ -52,3 +52,5 @@ python main.py
 4. Détendez-vous pendant qu'indicode saisit tout.
 
 > Forcez la langue avec la variable d'environnement `INDICODE_LANG` (par ex. `INDICODE_LANG=fr`).
+
+![end banner](./end_banner.png)

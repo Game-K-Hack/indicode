@@ -50,3 +50,5 @@ python main.py
 4. あとは indicode がすべて入力するのを待つだけです。
 
 > 環境変数 `INDICODE_LANG` で言語を指定できます（例：`INDICODE_LANG=ja`）。
+
+![end banner](./end_banner.png)

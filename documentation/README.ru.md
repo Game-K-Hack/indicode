@@ -51,3 +51,5 @@ python main.py
 4. Расслабьтесь, пока indicode всё вводит.
 
 > Принудительно задать язык можно через переменную окружения `INDICODE_LANG` (например, `INDICODE_LANG=ru`).
+
+![end banner](./end_banner.png)

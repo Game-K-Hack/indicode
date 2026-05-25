@@ -51,3 +51,5 @@ python main.py
 4. Sit back while indicode enters everything.
 
 > Set the language manually with the `INDICODE_LANG` environment variable (e.g. `INDICODE_LANG=fr`).
+
+![end banner](./documentation/end_banner.png)
