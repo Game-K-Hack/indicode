@@ -4,6 +4,8 @@
 
 **Automatic cheat-code entry for _LEGO Indiana Jones: The Original Adventures_**
 
+**English** · [Français](./documentation/README.fr.md) · [Deutsch](./documentation/README.de.md) · [Español](./documentation/README.es.md) · [Italiano](./documentation/README.it.md) · [日本語](./documentation/README.ja.md) · [한국어](./documentation/README.ko.md) · [Русский](./documentation/README.ru.md) · [中文](./documentation/README.zh.md)
+
 </div>
 
 ## What is indicode?
