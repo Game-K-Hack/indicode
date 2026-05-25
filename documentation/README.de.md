@@ -20,7 +20,7 @@ automatisch einzugeben – einen Code nach dem anderen.
 
 ## Demo
 
-[▶ Demo ansehen](demo.mp4)
+<video src="demo.mp4"></video>
 
 ## Funktionen
 

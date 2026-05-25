@@ -21,7 +21,7 @@ saisir automatiquement — un code après l'autre.
 
 ## Démo
 
-[▶ Voir la démo](demo.mp4)
+<video src="demo.mp4"></video>
 
 ## Fonctionnalités
 

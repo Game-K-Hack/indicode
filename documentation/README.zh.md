@@ -18,7 +18,7 @@
 
 ## 演示
 
-[▶ 观看演示](demo.mp4)
+<video src="demo.mp4"></video>
 
 ## 功能
 

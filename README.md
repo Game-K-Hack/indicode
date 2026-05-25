@@ -20,7 +20,7 @@ automatically — one code after another.
 
 ## Demo
 
-[▶ Watch the demo](documentation/demo.mp4)
+<video src="documentation/demo.mp4"></video>
 
 ## Features
 
