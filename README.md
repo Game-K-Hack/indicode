@@ -2,15 +2,15 @@
 
 ![indicode banner](documentation/banner.png)
 
-**Automatic cheat-code entry for _Indiana Jones and the Great Circle_**
+**Automatic cheat-code entry for _LEGO Indiana Jones: The Original Adventures_**
 
 </div>
 
 ## What is indicode?
 
-In _Indiana Jones and the Great Circle_, cheat codes are entered on a 6-character
-wheel in the Barnett College classroom, scrolling each character up or down one at
-a time. Doing it by hand is slow and error-prone.
+In _LEGO Indiana Jones: The Original Adventures_, cheat codes are entered on a
+6-character wheel in the Barnett College classroom, scrolling each character up or
+down one at a time. Doing it by hand is slow and error-prone.
 
 **indicode** does it for you. You pick the codes you want, it computes the shortest
 path between each character, then simulates the keystrokes to enter them
@@ -34,7 +34,7 @@ automatically — one code after another.
 - [`pynput`](https://pypi.org/project/pynput/) and [`colorama`](https://pypi.org/project/colorama/)
 
 ```bash
-pip install pynput colorama
+pip install -r requirements.txt
 ```
 
 ## Usage
