@@ -20,7 +20,10 @@ un codice dopo l'altro.
 
 ## Demo
 
-<video src="demo.mp4"></video>
+<a href="https://youtu.be/N4DFVwdnXN0">
+    <img src="demo.gif"/>
+</a>
+![Demo video](https://youtu.be/N4DFVwdnXN0)
 
 ## Funzionalità
 

@@ -20,7 +20,10 @@
 
 ## Демо
 
-<video src="demo.mp4"></video>
+<a href="https://youtu.be/N4DFVwdnXN0">
+    <img src="demo.gif"/>
+</a>
+![Видеодемонстрация](https://youtu.be/N4DFVwdnXN0)
 
 ## Возможности
 

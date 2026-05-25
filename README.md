@@ -20,7 +20,10 @@ automatically — one code after another.
 
 ## Demo
 
-<video src="documentation/demo.mp4"></video>
+<a href="https://youtu.be/N4DFVwdnXN0">
+    <img src="documentation/demo.gif"/>
+</a>
+![Video demo](https://youtu.be/N4DFVwdnXN0)
 
 ## Features
 

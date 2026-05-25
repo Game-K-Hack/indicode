@@ -20,7 +20,10 @@ automáticamente, uno tras otro.
 
 ## Demo
 
-<video src="demo.mp4"></video>
+<a href="https://youtu.be/N4DFVwdnXN0">
+    <img src="demo.gif"/>
+</a>
+![Demo en vídeo](https://youtu.be/N4DFVwdnXN0)
 
 ## Características
 

@@ -21,7 +21,10 @@ saisir automatiquement — un code après l'autre.
 
 ## Démo
 
-<video src="demo.mp4"></video>
+<a href="https://youtu.be/N4DFVwdnXN0">
+    <img src="demo.gif"/>
+</a>
+![Démo vidéo](https://youtu.be/N4DFVwdnXN0)
 
 ## Fonctionnalités
 
