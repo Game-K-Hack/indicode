@@ -14,12 +14,7 @@ _current_lang: str = FALLBACK_LANG
 
 
 def available_languages() -> list[str]:
-    """Retourne la liste des codes de langue disponibles (ex: ['en', 'fr'])."""
-    if not os.path.isdir(LANGS_DIR):
-        return []
-    return sorted(
-        f[:-5] for f in os.listdir(LANGS_DIR) if f.endswith(".json")
-    )
+    return [] if not os.path.isdir(LANGS_DIR) else sorted(f[:-5] for f in os.listdir(LANGS_DIR) if f.endswith(".json"))
 
 
 def _load(lang: str) -> dict:
