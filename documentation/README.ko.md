@@ -21,6 +21,7 @@ _레고 인디아나 존스: 오리지널 어드벤처_ 에서는 바넷 대학 
 <a href="https://youtu.be/N4DFVwdnXN0">
     <img src="demo.gif"/>
 </a>
+
 ![동영상 데모](https://youtu.be/N4DFVwdnXN0)
 
 ## 기능

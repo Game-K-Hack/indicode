@@ -23,6 +23,7 @@ un codice dopo l'altro.
 <a href="https://youtu.be/N4DFVwdnXN0">
     <img src="demo.gif"/>
 </a>
+
 ![Demo video](https://youtu.be/N4DFVwdnXN0)
 
 ## Funzionalità

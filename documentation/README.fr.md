@@ -24,6 +24,7 @@ saisir automatiquement — un code après l'autre.
 <a href="https://youtu.be/N4DFVwdnXN0">
     <img src="demo.gif"/>
 </a>
+
 ![Démo vidéo](https://youtu.be/N4DFVwdnXN0)
 
 ## Fonctionnalités

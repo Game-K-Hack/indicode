@@ -23,6 +23,7 @@ automatically — one code after another.
 <a href="https://youtu.be/N4DFVwdnXN0">
     <img src="documentation/demo.gif"/>
 </a>
+
 ![Video demo](https://youtu.be/N4DFVwdnXN0)
 
 ## Features

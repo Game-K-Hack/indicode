@@ -23,6 +23,7 @@ automáticamente, uno tras otro.
 <a href="https://youtu.be/N4DFVwdnXN0">
     <img src="demo.gif"/>
 </a>
+
 ![Demo en vídeo](https://youtu.be/N4DFVwdnXN0)
 
 ## Características
